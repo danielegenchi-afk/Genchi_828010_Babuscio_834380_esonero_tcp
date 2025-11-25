@@ -142,7 +142,7 @@ int main(int argc, char *argv[]) {
             return -1;
         }
         if (bytes_rcvd < 0) {
-            perror("recv() fallita");
+            errorhandler("recv() fallita");
             closesocket(my_socket);
             clearwinsock();
             return -1;
