@@ -179,7 +179,7 @@ int main(int argc, char *argv[]) {
 
     }
     break;
-    case 1: errorhandler("Città non valida");
+    case 1: errorhandler("Città non disponibile");
     break;
     case 2: errorhandler("Richiesta non valida");
     break;
